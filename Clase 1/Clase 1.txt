@@ -1,0 +1,10 @@
+CLASE 1
+
+HTML define estructura y contenido pero no comportamiento. Por eso no es un lenguaje de programación. 
+
+<nombre>Contenido</nombre> 	“Etiquetas cerradas”
+<nombre/>			“Etiquetas abiertas”
+
+HTML5
+Etiquetas SEMANTICAS
+			

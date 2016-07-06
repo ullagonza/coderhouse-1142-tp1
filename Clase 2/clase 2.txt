@@ -3,3 +3,7 @@ Clase 2
 <pre></pre> texto preformateado. muestra todo. sirve para mostrar html x ejemplo
 <hr/> horizontal rule
 
+<a href="../img/asd.png"> UNA CARPETA PARA ATRAS
+<a href="./index.html"> MAS ESPECIFICO DE LA RUTA DONDE ESTOY PARADO
+<a href="#id"> ENLACES INTERNOS
+donde id es el id de una seccion de la pagina

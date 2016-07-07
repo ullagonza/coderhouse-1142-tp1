@@ -7,3 +7,5 @@ Clase 2
 <a href="./index.html"> MAS ESPECIFICO DE LA RUTA DONDE ESTOY PARADO
 <a href="#id"> ENLACES INTERNOS
 donde id es el id de una seccion de la pagina
+
+que pasa si a select le agrego la propiedad multiple?? 

@@ -1,0 +1,3 @@
+Conenido multimedia.
+
+<img> en formato RGB. CMYK hay browsers que no lo toman

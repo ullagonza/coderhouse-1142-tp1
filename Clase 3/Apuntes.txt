@@ -1,3 +1,18 @@
 Conenido multimedia.
 
 <img> en formato RGB. CMYK hay browsers que no lo toman
+
+CSS complementa HTML
+Estila lenguajes de marcado
+
+Propiedades de color y de tipografia son transferibles de padres a hijos, se heredan.
+
+Prioridad y especificidad
+
+Tienen prioridad los selectores agregados mas recientemente
+
+div.service {
+color:blue;
+}
+
+Se aplica a las clases service que esten dentro de algun div

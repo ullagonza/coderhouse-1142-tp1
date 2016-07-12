@@ -4,3 +4,11 @@ p {
 body{
   background-color: grey;
 }
+h2{
+  color: orange;
+}
+
+video{
+  width: 100%;
+}
+/*comentario*/

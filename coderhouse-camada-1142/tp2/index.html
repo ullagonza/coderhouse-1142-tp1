@@ -157,3 +157,29 @@
 </footer>
   </body>
 </html>
+
+<!--
+  Correcciones
+  ************
+  
+  La estructura general está muy bien armada, y se nota que entendiste bien el concepto de
+  maquetar sin implementar diseño. Estos son los puntos que corregiría:
+  
+  * Ojo con la tabulación del contenido de <body>; se pierde un poco la estructura de árbol.
+  * Al definir IDs para elementos conviene usar nombres que tengan más que ver con el rol del
+    elemento en el documento que con cómo debe verse. Por ejemplo, un nombre como "main_banner"
+    sería más recomendable que "background_img". "domain_search", por ejemplo, es un muy buen
+    nombre para un ID.
+  * Nombres para IDs como "main1" y "main2" no están precisamente mal en un contexto en el que
+    todavía no se sabe bien que va a haber dentro del tag, pero conviene evitarlos al desarrollar
+    sitios reales. Una excepción son las listas, donde se pueden usar nombres como estos sin
+    problemas.
+  * Al tag <button> no le hace falta la propiedad "type".
+  * Nombres de clases como "main2_div2" no son muy convenientes, porque semánticamente dan la
+    impresión de que no pueden ser reutilizadas por fuera de #main2 (acordate que el propósito
+    principal de las clases es su reutilización). Además, con "div2" la clase está describiendo
+    a que tag se está aplicando, lo cual tampoco conviene hacer porque una particularidad de las
+    clases es que pueden aplicarse a cualquier tipo de elemento HTML.
+  * El tag <bold> no es HTML válido. Para texto en negrita se usan <b> y <strong>, aunque se
+    prefiere <strong> por su valor semántico.
+-->
